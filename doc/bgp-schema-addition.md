@@ -310,6 +310,7 @@ In repo *sonic-buidlimage*:
 
 *dockers/docker-fpm-quagga/bgpd.conf.j2*:  
 *dockers/docker-fpm-frr/bgpd.conf.j2*:  
+Here we have 2 options: either amend the template and make it super complex ( our current implementation ) or put the code into a python script that wil generate a simple template from the data in the db.  
 
 *dockers/docker-snmp-quagga/bgpcfgd*:  
 *dockers/docker-snmp-frr/bgpcfgd*:  
